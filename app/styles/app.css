@@ -1,0 +1,27 @@
+body {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.75)
+    ),
+    url("https://thumbs.dreamstime.com/z/buddha-art-culture-20699256.jpg");
+    color: white;
+}
+
+.navbar-custom {
+    padding: 15px 15px;
+    height: 80px;
+    border: none;
+    background-color: #654304;
+    font-family: 'Eagle Lake', cursive;
+
+
+}
+
+
+.navbar-default .navbar-brand {
+  font-size: 3em;
+  /*background-color: black;
+  color: #4A0F0F;*/
+
+}

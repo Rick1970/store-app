@@ -1,1 +1,11 @@
-
+<ul>
+  {{#each model as |item|}}
+  <li>{{item.description}}<br>
+    <p><img class="resize" src={{item.image}} alt={{item.description}}><br>
+      {{item.price}}
+      <button class="btn-custom" {{action 'addToCart' item}}>Add to Cart</button>
+    </p></li>
+    <br>
+    <br>
+    {{/each}}
+  </ul>

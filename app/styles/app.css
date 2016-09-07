@@ -25,3 +25,25 @@ body {
   color: #4A0F0F;*/
 
 }
+
+.resize {
+  width: 150px;
+  height: 150px;
+}
+
+.btn-custom {
+  background-color: hsl(36, 100%, 6%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffb547", endColorstr="#1e1200");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#ffb547), to(#1e1200));
+  background-image: -moz-linear-gradient(top, #ffb547, #1e1200);
+  background-image: -ms-linear-gradient(top, #ffb547, #1e1200);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffb547), color-stop(100%, #1e1200));
+  background-image: -webkit-linear-gradient(top, #ffb547, #1e1200);
+  background-image: -o-linear-gradient(top, #ffb547, #1e1200);
+  background-image: linear-gradient(#ffb547, #1e1200);
+  border-color: #1e1200 #1e1200 hsl(36, 100%, -8.5%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.95);
+  -webkit-font-smoothing: antialiased;
+}
